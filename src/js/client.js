@@ -24,9 +24,9 @@ class Layout extends React.Component {
     return (
             <div className="container-fluid">
                     <div className="row">
-                        <div className="col-md-12 text-center">
+                        <div className="col-md-12 text-center top">
                         <h2>{this.state.joke}</h2>
-                            <button onClick={this.componentDidMount} className="btn-success">NEW JOKE!</button>
+                            <button onClick={this.componentDidMount} className="button red"><p>NEW JOKE!</p><span className="button2">Click Me!</span></button>
                         </div>
                     </div>
             </div>
