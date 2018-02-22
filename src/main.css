@@ -6,25 +6,28 @@ body  {
     -o-background-size: cover;
 }
 
+p {
+    margin-top: 10px;
+}
 
 h2 {
     font-family: 'Chewy';
     color: whitesmoke;
 }
 .top {
-	top: 200px;
+	height: 410px;
 }
-
+.mt {
+    margin-top: 5px;
+}
 .button {
-	display: block;
-	position: absolute;
-	right: 47%;
-	top: 280px;
+        display: block;
+	/*top: 300px;*/
 	border-radius: 300px;
 	text-decoration: none;
-	height: 100px;
+	height: 90px;
 	text-align: center;
-	width: 100px;
+	width: 90px;
 	z-index: 1;
 	text-shadow: 0 1px 0 rgba(255,255,255,.7);
 	letter-spacing: -.065em;
@@ -39,10 +42,7 @@ h2 {
 	border-style: solid;
 }
 .button2 {
-	display: block;
-	position: absolute;
-	right: -3%;
-	top: -4px;
+	
 	border-radius: 300px;
 	text-decoration: none;
 	height: 100px;
@@ -58,17 +58,23 @@ h2 {
 	transition: all .25s ease-in-out;
 	font-weight: bold;
 	box-shadow: 2px 2px 7px rgba(0,0,0,.2);
-	border-width: 4px;
+	border-width: 90px;
 	border-style: solid;
+        /*position: absolute;*/ 
+        display: block;
+        opacity: 0;
+        font-size: 1px;
+        border: none;
+        /*padding: 50% 20% 0 20%;*/
+        color: #fff;
+        right: 115px;
+        top: -9px;  
 }
+
 .button:hover {
-	width: 150px;
-	height: 150px;
-	top: 260px;
-	right: 622px;
-	padding-right: 20px;
+	width: 110px;
+	height: 110px;
 	font-size: 0px;
-	border-size: 200px;
 	transform: rotate(-360deg);
 	z-index: 2;
 }
@@ -78,52 +84,21 @@ h2 {
 	border-color: rgba(133,32,28,.2);
 }
 .red:hover {
-		color: white;
+	color: white;
 	}
-.button2 {
-		display: block;
-		opacity: 0;
-		-webkit-transition: all .5s ease-in-out;
-		-moz-transition: all .5s ease-in-out;
-		-o-transition: all .5s ease-in-out;
-		transition: all .5s ease-in-out;
-		font-size: 1px;
-		border: none;
-		padding: 40% 20% 0 20%;
-		color: #fff;
-}
+
+
 
 .button span:hover {
-	top: -10%;
-	right: -10%;
+        padding-bottom: 20px; 
 	opacity: 0.85;
-	font-size: 30px;
+	font-size: 18px;
 	-webkit-text-shadow: 0 1px 1px rgba(0,0,0,.5);
 	-moz-text-shadow: 0 1px 1px rgba(0,0,0,.5);
 	-o-text-shadow: 0 1px 1px rgba(0,0,0,.5);
 	text-shadow: 0 1px 1px rgba(0,0,0,.5);
-	width: 170px;
-	height: 170px;	
+	width: 120px;
+	height: 120px;	
 	background: rgba(133,32,28,.7);	
+        right:-50px;
 }
-
-
-/*@-moz-keyframes rotate {
-		0% {transform: rotate(0deg);}
-		100% {transform: rotate(-360deg);}
-	}
-
-	@-webkit-keyframes rotate {
-		0% {transform: rotate(0deg);}
-		100% {transform: rotate(-360deg);}
-	}
-
-	@-o-keyframes rotate {
-		0% {transform: rotate(0deg);}
-		100% {transform: rotate(-360deg);}
-	}
-
-	@keyframes rotate {
-		0% {transform: rotate(0deg);}
-		100% {transform: rotate(-360deg);}
-	}*/
